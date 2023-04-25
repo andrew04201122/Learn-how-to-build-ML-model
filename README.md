@@ -34,6 +34,8 @@ git clone git@github.com:andrew04201122/build_model.git
 cd pytorch_training
 ```
 
+ps : you have to download all dataset above before building the images
+
 3. build docker image
 ```console
 docker build -t model_training .
